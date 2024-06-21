@@ -1,0 +1,151 @@
+*{
+ margin: 0;
+ padding: 0;
+ background-size:100% 100% ;
+ background-position:center ;
+ background-repeat:no-repeat ;
+}
+
+body {
+ width: 100vw;
+ height: 100vh;
+}
+
+.caja{
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ background: linear-gradient(45deg,#557491,#c4c4c4,#557491);
+ display:flex;
+ justify-content:center;
+ align-items:center;
+ overflow:hidden;
+}
+
+.mover{
+ position: relative;
+ width:2750px ;
+ height: 350px;
+ display:flex; 
+ align-items:center;
+ transition:1s;
+}
+
+.item{
+ position: absolute;
+ width: 200px;
+ height: 300px;
+ background: linear-gradient(45deg,#557491,#c4c4c4,#557491);
+ border:solid 1px #fff;
+ opacity:85%;
+ box-shadow:10px 10px 10px 10px black;
+}
+
+.j{
+ position: absolute;
+ width: 250px;
+ height: 350px;
+ transform:skew(9deg);
+ background-size:100% 100% ;
+ left:-50px;
+ top:-50px;
+ opacity:100%;
+ z-index:100;
+}
+
+.m{
+background-image:url(messi.png) ;  
+}
+
+.d{
+ background-image:url(dibu.png) ;
+ background-size:120% 110% ;
+}
+
+.di{
+ background-image:url(di.png) ;
+ background-size:90% 90% ;
+ left:10px;
+}
+
+.ro{
+ background-image:url(rodri.png) ;
+ background-size:90% 100% ;
+ left:-40px;
+ bottom:-10px;
+}
+
+.mon{
+ background-image:url(mon.png) ;
+ background-size:95% 100% ;
+ left:-40px;
+ bottom:0px;
+}
+
+.julian{
+ background-image:url(julian.png) ;
+ background-size:95% 100% ;
+ left:-40px;
+ bottom:0px;
+}
+
+.ota{
+ background-image:url(ota.png) ;
+ background-size:100% 100% ;
+ left:-40px;
+ bottom:0px;
+}
+
+.mar{
+ width: 300px;
+ background-image:url(mar.png) ;
+ background-size:100% 90% ;
+ left:-50px;
+ bottom:-50px;
+}
+
+.nahuel{
+ width: 250px;
+ background-image:url(nahuel.png) ;
+ background-size:90% 90%;
+ left:-20px;
+ bottom:0px;
+}
+
+.mac{
+ width: 250px;
+ background-image:url(mac.png) ;
+ background-size:95% 100%;
+ left:-50px;
+ bottom:0px;
+}
+
+.romero{
+ width: 250px;
+ background-image:url(romero.png) ;
+ background-size:90% 100%;
+ left:-30px;
+ bottom:0px;
+}
+
+.enzo{
+ width: 250px;
+ background-image:url(enzo.png) ;
+ background-size:120% 120%;
+ left:-30px;
+ top:-40px;
+}
+
+.escaloni{
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ background-image:url(es.jpg) ;
+ background-size:cover;
+ 
+}
+
+h2{
+ color: #fff;
+ font-size:30px;
+}
